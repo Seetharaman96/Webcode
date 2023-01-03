@@ -43,17 +43,17 @@ async function getMakeup(){
 
             creatinDiv2.innerHTML = `
 
-            <h3>${i.brand}</h3>
+            <h3><strong style='color:black;'>Brand</strong>-${i.brand}</h3>
 
-            <p>${i.name}</p>
+            <p><strong>Name</strong>-${i.name}</p>
 
-            <p>${i.price}</p>
+            <p><strong>Price</strong>-${i.price}</p>
 
             <a href='${i.product_link}'>Product-link</a><br>
 
             <a href='${i.image_link}'>Image-link</a>
 
-            <p>${i.description}</p>
+            <p><strong>Description</strong>-${i.description}</p>
 
             `
             
